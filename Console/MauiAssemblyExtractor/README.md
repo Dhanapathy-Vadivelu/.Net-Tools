@@ -1,10 +1,10 @@
 # MauiAssemblyExtractor
 
-A .NET command-line tool for extracting and analyzing assemblies from .NET MAUI Android Apk file.
+A .NET command-line tool for extracting and analyzing assemblies from .NET MAUI Android Apk files built with .NET 9 or above.
 
 ## Overview
 
-MauiAssemblyExtractor is a cross-platform console application designed to extract .NET managed assemblies embedded within Android APK packages created with Microsoft's MAUI framework. MAUI applications bundle .NET assemblies in a proprietary compressed binary format within the `libassembly-store.so` native library. This tool automates the entire extraction process, including:
+MauiAssemblyExtractor is a cross-platform console application designed to extract .NET managed assemblies embedded within Android APK packages created with Microsoft's MAUI framework targeting **.NET 9 or above**. MAUI applications bundle .NET assemblies in a proprietary compressed binary format within the `libassembly-store.so` native library. This tool automates the entire extraction process, including:
 
 - APK archive decompression
 - ELF binary extraction
@@ -50,7 +50,9 @@ Before using MauiAssemblyExtractor, ensure you have:
    - Download from: https://dotnet.microsoft.com/download
    - Verify installation: `dotnet --version`
 
-2. **Appropriate permissions** to read MAUI application files and write to output directories
+2. **MAUI APK built with .NET 9 or above** - This tool is compatible only with APK files built targeting .NET 9 or later versions
+
+3. **Appropriate permissions** to read MAUI application files and write to output directories
 
 ## Installation
 
