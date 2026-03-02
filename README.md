@@ -12,7 +12,8 @@ A collection of powerful .NET-based command-line tools designed to enhance your 
 A cross-platform console application for extracting .NET managed assemblies from Android APK packages created with Microsoft's MAUI framework.
 
 **Key Features:**
-- ✅ Extract assemblies from MAUI APK files built with .NET 9 or above
+- ✅ Extract assemblies from MAUI APK files built with .NET 8 or above
+- ✅ Supports extraction from `assemblies*.blob`, `libassembly-store.so`, and `libassemblies.blob.so`
 - ✅ Automated APK processing and ELF binary extraction
 - ✅ MAUI Assembly Store parsing with LZ4 decompression
 - ✅ Interactive CLI with comprehensive logging
